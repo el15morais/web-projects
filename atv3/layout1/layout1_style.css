@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo img{
+    align-items: center;
+    width: 150px;
+    margin-left: 5px;
+}
+
+header nav {
+    margin-right: 15px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #323232;
+    font-size: 14px;
+    transition: ease 0.5s;
+}
+
+
+header nav ul li a:hover {
+    color: rgb(10, 83, 255);
+}
+
+.nav-button {
+    background-color: rgb(10, 112, 255);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: rgb(10, 18, 255);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(42, 42, 42);
+}
+
+.left-section  {
+    min-width: 50%;
+}
+
+.conteudo {
+    color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.conteudo h1 {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 12px;
+}
+
+.first-text {
+    margin-bottom: 12px;
+}
+
+.second-text {
+    margin-bottom: 24px;
+}
+
+.context-button {
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(10, 112, 255);
+    width: 80%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.context-button:hover {
+    background-color: rgb(10, 18, 255);
+}
+
+.view-plans {
+    color: white;
+}
+
+.buy-now a {
+    color: white;
+}
+
+.right-section {
+    background-color: rgb(29 25 24);
+    min-width: 50%;
+}
+
+.right-section video {
+    width: 100%;
+    height: 100%;
+}
+
