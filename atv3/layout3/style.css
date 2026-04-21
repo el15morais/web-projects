@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        177deg,
+        #060842 0%,
+        #15125a 30%,
+        #232169 50%,
+        #35308a 70%,
+        #42398d 100%
+    );
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+    font-size: 18px;
+}
+
+.logo img {
+    filter: brightness(0) invert(1);
+}
+
+.nav-bar {
+    display: flex;
+    gap: 24px;
+}
+
+.departments {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.arrow-icon {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.search-button {
+    background-color: rgba(87, 87, 87, 0.5);
+    border: 1px solid #868686;
+}
+
+.login-button {
+    background: none;
+    color: #fff;
+}
+
+.sign-up-button {
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 1100px; 
+    margin: 80px auto 0;
+    padding: 0 40px;
+}
+
+.title {
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 4.5rem); 
+    line-height: 1.1;
+}
+
+.content {
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.action-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.email-group {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.email-field {
+    border: none;
+    padding: 15px 20px;
+    width: 350px;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-email {
+    background-color: #2da44e;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.experiment-github {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 18px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
