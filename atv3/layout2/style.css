@@ -9,6 +9,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* NAVBAR */
 .main-nav {
     width: 100%;
@@ -86,7 +91,6 @@ button {
 .hero {
     display: flex;
     max-width: 1680px;
-    margin: 0 auto;
     padding: 80px 60px;
     align-items: center;
 }
@@ -132,7 +136,8 @@ button {
     border: 1px solid #000000;
 }
 
-
-.illustration-container {
-    border: 1px solid #000000 ;
+.illustrative-element {
+    width: 630px;
+    height: 100%;
+    border: 1px solid #ff0000;
 }
